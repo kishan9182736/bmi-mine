@@ -1,0 +1,154 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 375px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.gender-selector {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.gender {
+    width: 100px;
+    cursor: pointer;
+}
+
+.gender input[type="radio"] {
+    display: none;
+}
+
+.gender-icon {
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: background-color 0.3s;
+}
+
+.gender-icon span {
+    margin-top: 10px;
+}
+
+.gender-icon.male {
+    color: #007bff;
+}
+
+.gender-icon.female {
+    color: #999;
+}
+
+.input-section {
+    background-color: #1e1e1e;
+    padding: 20px;  /* Increased padding to match your design */
+    border-radius: 15px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-label {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.counter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.counter button {
+    background-color: #1e1e1e;
+    border: 2px solid #999;
+    color: #fff;
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+.counter button:hover {
+    background-color: #333;
+}
+
+.counter input {
+    background-color: #1e1e1e;
+    border: none;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    width: 60px;
+    margin: 0 10px;
+    border-bottom: 2px solid #007bff;
+    outline: none;
+}
+
+.counter input:focus {
+    border-bottom: 2px solid #007bff;
+}
+
+
+
+input[type="range"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #121212;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button.calculate-btn,
+button.recalculate-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.result-box {
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.bmi-status {
+    color: #007bff;
+    font-size: 24px;
+}
+
+.bmi-value {
+    font-size: 48px;
+    font-weight: bold;
+}
